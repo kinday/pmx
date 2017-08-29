@@ -6,8 +6,9 @@
   "dependencies": {
     "debug": "^2.6",
     "fclone": "^1.0.11",
-    "vxx": "^1.2.0",
-    "shimmer": "*"
+    "object-assign": "^4.1.1",
+    "shimmer": "*",
+    "vxx": "^1.2.0"
   },
   "devDependencies": {
     "coveralls": "^2.12.0",
