@@ -15,6 +15,13 @@ describe('ERROR Wrapper', function() {
     should(new Error('lolilol').stack);
   });
 
+  it('should support stack trace capturing', function() {
+    function captureStackTrace() {
+      Error.captureStackTrace({});
+    }
+    should.doesNotThrow(captureStackTrace);
+  });
+
   it('should Error', function() {
     Error('asddsa');
   });
